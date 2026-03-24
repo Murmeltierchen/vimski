@@ -1,0 +1,54 @@
+# Vimski
+
+A custom Neovim config
+
+## Requirements
+
+- [Neovim](https://github.com/neovim/neovim)
+- Some terminal with true color support (for example [kitty](https://github.com/kovidgoyal/kitty))
+- Some Nerd-Font
+- [tmux](https://github.com/tmux/tmux)
+
+## Installation
+
+### Linux/Mac
+
+```sh
+git clone --depth 1 git@github.com:Murmeltierchen/vimski.git ~/.config/nvim
+nvim
+```
+
+## Custom Keybinds
+
+Default bind for `Leader`: `Space`
+
+- `Esc` in terminal - Exit terminal mode
+- `K` - Show hover menu
+
+---
+
+- `Ctrl + <Up/Down>` - Move line up/down
+- `Ctrl + 0` - Toggle terminal
+- `Ctrl + b` - Toggle background transparency
+- `Ctrl + g` - Open live grep
+- `Ctrl + n` - Focus file tree
+- `Ctrl + p` - Open file search
+- `Ctrl + s` - Format file
+- `Ctrl + t` - Show TODOs
+- `Ctrl + y` - Redo
+- `Ctrl + z` - Undo
+
+---
+
+- `Leader` - Show all `Leader` keybinds
+- `Leader -> Leader` - Open previous files selection
+- `Leader -> <Up/Down/Left/Right>` - Switch window
+- `Leader -> b` - Toggle git blame
+- `Leader -> d` - Show definitions
+- `Leader -> h` - Show hovered git changes
+- `Leader -> ha` - Show all git changes
+- `Leader -> n` - Hide marking after search
+- `Leader -> r` - Show references
+- `Leader -> t` - Test file
+- `Leader -> ta` - Test all files
+- `Leader -> x` - Show problems

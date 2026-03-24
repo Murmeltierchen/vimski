@@ -1,0 +1,44 @@
+return {
+	{
+		"williamboman/mason.nvim",
+		lazy = false,
+		config = function()
+			require("mason").setup()
+		end,
+	},
+	{
+		"williamboman/mason-lspconfig.nvim",
+		lazy = false,
+		opts = {
+			auto_install = true,
+			ensure_installed = {
+				"lua_ls",
+			},
+		},
+	},
+	{
+		"neovim/nvim-lspconfig",
+		lazy = false,
+		config = function()
+			local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
+			vim.lsp.config("lua_ls", {
+				capabilities = capabilities,
+			})
+			vim.lsp.config("html", {
+				capabilities = capabilities,
+			})
+			vim.lsp.config("ts_ls", {
+				capabilities = capabilities,
+			})
+
+			vim.lsp.enable("lua_ls")
+			vim.lsp.enable("html")
+			vim.lsp.enable("ts_ls")
+
+			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+			vim.keymap.set("n", "<leader>d", vim.lsp.buf.definition, {})
+			vim.keymap.set("n", "<leader>r", vim.lsp.buf.references, {})
+		end,
+	},
+}
