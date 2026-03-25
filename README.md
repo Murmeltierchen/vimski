@@ -22,12 +22,20 @@ nvim
 
 Default bind for `Leader`: `Space`
 
+### Single Keys
+
 - `Esc` in terminal - Exit terminal mode
 - `K` - Show hover menu
 
----
+### Using Shift
+
+- `Shift + Tab` - Dedent current line
+
+### Using Ctrl
 
 - `Ctrl + <Up/Down>` - Move line up/down
+- `Ctrl + Backspace` - Delete word
+- `Ctrl + Tab` - Indent current line
 - `Ctrl + 0` - Toggle terminal
 - `Ctrl + b` - Toggle background transparency
 - `Ctrl + g` - Open live grep
@@ -38,7 +46,7 @@ Default bind for `Leader`: `Space`
 - `Ctrl + y` - Redo
 - `Ctrl + z` - Undo
 
----
+### Using Leader
 
 - `Leader` - Show all `Leader` keybinds
 - `Leader -> Leader` - Open previous files selection
