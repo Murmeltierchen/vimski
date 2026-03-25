@@ -34,7 +34,7 @@ Default bind for `Leader`: `Space`
 
 ### Using Ctrl
 
-- `Ctrl + <Up/Down>` - Move line up/down
+- `Ctrl + <Up/Down>` - Navigate 10 lines up/down
 - `Ctrl + Backspace` - Delete word in front of cursor
 - `Ctrl + Delete` - Delete word after cursor
 - `Ctrl + Tab` - Indent current line
@@ -45,6 +45,10 @@ Default bind for `Leader`: `Space`
 - `Ctrl + p` - Open file search
 - `Ctrl + s` - Format file
 - `Ctrl + t` - Show TODOs
+
+### Using Shift and Ctrl
+
+- `Ctrl + Shift + <Up/Down>` - Move line up/down
 
 ### Using Leader
 
