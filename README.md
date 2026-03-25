@@ -35,7 +35,8 @@ Default bind for `Leader`: `Space`
 ### Using Ctrl
 
 - `Ctrl + <Up/Down>` - Move line up/down
-- `Ctrl + Backspace` - Delete word
+- `Ctrl + Backspace` - Delete word in front of cursor
+- `Ctrl + Delete` - Delete word after cursor
 - `Ctrl + Tab` - Indent current line
 - `Ctrl + 0` - Toggle terminal
 - `Ctrl + b` - Toggle background transparency
