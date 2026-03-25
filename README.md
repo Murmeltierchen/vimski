@@ -29,6 +29,7 @@ Default bind for `Leader`: `Space`
 
 ### Using Shift
 
+- `Shift + <Up/Down/Left/Right>` - Switch window
 - `Shift + Tab` - Dedent current line
 
 ### Using Ctrl
@@ -43,14 +44,11 @@ Default bind for `Leader`: `Space`
 - `Ctrl + p` - Open file search
 - `Ctrl + s` - Format file
 - `Ctrl + t` - Show TODOs
-- `Ctrl + y` - Redo
-- `Ctrl + z` - Undo
 
 ### Using Leader
 
 - `Leader` - Show all `Leader` keybinds
 - `Leader -> Leader` - Open previous files selection
-- `Leader -> <Up/Down/Left/Right>` - Switch window
 - `Leader -> b` - Toggle git blame
 - `Leader -> d` - Show definitions
 - `Leader -> h` - Show hovered git changes
