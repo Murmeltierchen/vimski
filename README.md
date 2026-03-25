@@ -38,6 +38,7 @@ Default bind for `Leader`: `Space`
 - `Ctrl + Backspace` - Delete word in front of cursor
 - `Ctrl + Delete` - Delete word after cursor
 - `Ctrl + Tab` - Indent current line
+- `Ctrl + ,` - Toggle Claude Code
 - `Ctrl + 0` - Toggle terminal
 - `Ctrl + b` - Toggle background transparency
 - `Ctrl + g` - Open live grep
