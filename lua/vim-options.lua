@@ -11,14 +11,14 @@ vim.opt.relativenumber = true
 
 vim.keymap.set("i", "<C-H>", "<C-w>")
 vim.keymap.set("i", "<C-BS>", "<C-w>")
-vim.keymap.set("i", "<C-Delete>", "<C-o>dw")
+vim.keymap.set("i", "<C-Delete>", '<C-o>"_dw')
 vim.keymap.set("n", "<C-S-Up>", ":m -2<CR>")
 vim.keymap.set("n", "<C-S-Down>", ":m +1<CR>")
 vim.keymap.set("i", "<S-Tab>", "<C-d>")
 vim.keymap.set("i", "<C-Tab>", "<C-t>")
 
-vim.keymap.set({"n", "v"}, "<C-Up>", "10k")
-vim.keymap.set({"n", "v"}, "<C-Down>", "10j")
+vim.keymap.set({ "n", "v" }, "<C-Up>", "10k")
+vim.keymap.set({ "n", "v" }, "<C-Down>", "10j")
 vim.keymap.set("n", "<S-Up>", ":wincmd k<CR>")
 vim.keymap.set("n", "<S-Down>", ":wincmd j<CR>")
 vim.keymap.set("n", "<S-Left>", ":wincmd h<CR>")
